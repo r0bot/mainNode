@@ -1,0 +1,24 @@
+{
+  "name": "mainnode",
+  "version": "0.0.1",
+  "description": "the mainNode",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/r0bot/mainNode.git"
+  },
+  "author": "r0bot",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/r0bot/mainNode/issues"
+  },
+  "homepage": "https://github.com/r0bot/mainNode#readme",
+  "dependencies": {
+    "express": "^4.16.2",
+    "firebase-admin": "^5.8.1",
+    "serialport": "^6.0.4"
+  }
+}
