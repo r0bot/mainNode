@@ -1,0 +1,11 @@
+{
+  "extends": [
+    "airbnb-base"
+  ],
+  "rules": {
+    "linebreak-style": "off",
+    "comma-dangle": "off",
+    "arrow-body-style": "off",
+    "indent": ["error", 2]
+  }
+}

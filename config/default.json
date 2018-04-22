@@ -1,0 +1,44 @@
+{
+  "environment": "default",
+  "sqlDb":{
+    "connectionString": "mysql://user:pass@example.com:9821/db_name",
+    "options": {
+      "dialect": "mysql"
+    }
+  },
+  "bcrypt":{
+    "saltRounds":10
+  },
+  "sessionStore": {
+    "username":"user",
+    "password":"password",
+    "database":"sessions"
+  },
+  "sessions":{
+    "secret": "keyboard cat",
+    "resave": false,
+    "saveUninitialized": true,
+    "cookie": { "secure": false }
+  },
+  "sequelize": {
+    "host":"localhost",
+    "storage":"./storage/database.sqlite",
+    "dialect":"sqlite",
+    "pool":{
+      "max": 5,
+      "min": 0,
+      "acquire": 30000,
+      "idle": 10000
+    }
+  },
+  "server": {
+    "ip": "localhost",
+    "port": 3310
+  },
+  "mosca": {
+    "port": 1883
+  },
+  "sync":{
+    "heartbeatInterval": 1000
+  }
+}
